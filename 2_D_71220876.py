@@ -10,7 +10,7 @@ def hitung_mobil():
         if fromm in tot_mobil:
             tot_mobil[fromm] += 1
         else:
-            print("Asal mobil tidak valid!")
+            print(" ")
     
     for cityy, tot in tot_mobil.items():
         print("Jumlah mobil dari {}: {}".format(cityy, tot))
